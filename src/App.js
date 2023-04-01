@@ -1,12 +1,12 @@
-import './App.css';
-import { Message } from "./components/Message"
+import './App.css'
+import { Stylesheet } from './components/Stylesheet'
 
 function App() {
 	return (
-		<div className="App">
-			<Message></Message>
+		<div className='App'>
+			<Stylesheet></Stylesheet>
 		</div>
-	);
+	)
 }
 
-export default App;
+export default App
